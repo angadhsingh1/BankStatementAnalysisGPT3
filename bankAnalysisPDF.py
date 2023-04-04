@@ -8,8 +8,7 @@ from PyPDF2 import PdfReader
 # https://www.geeksforgeeks.org/extract-text-from-pdf-file-using-python/
 
 # --------------------------- API Call ------------------------- #
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 sys.path.append('/usr/local/lib/python2.7/site-packages')
 
 # ------------------------ Functions --------------------------- #
